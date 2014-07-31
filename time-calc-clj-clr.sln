@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{985F20FF-87AE-45F6-86E0-1DBBF0224EB9}") = "time-calc-clj-clr", "time-calc-clj-clr\time-calc-clj-clr.cljproj", "{8FE1995B-4B6D-4911-B563-A759467FDF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FE1995B-4B6D-4911-B563-A759467FDF53}.Debug|x86.ActiveCfg = Debug|x86
+		{8FE1995B-4B6D-4911-B563-A759467FDF53}.Debug|x86.Build.0 = Debug|x86
+		{8FE1995B-4B6D-4911-B563-A759467FDF53}.Release|x86.ActiveCfg = Release|x86
+		{8FE1995B-4B6D-4911-B563-A759467FDF53}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
