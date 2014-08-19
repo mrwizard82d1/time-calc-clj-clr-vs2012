@@ -23,6 +23,8 @@
         ;; 3. use :clj-dep instead of :clj-exe in :main-cmd and :compile-cmd
         :deps-cmds      [; [:wget  :clj-zip :clj-url] ; edit to use :curl instead of :wget
                          ; [:unzip "../clj" :clj-zip]
+                         ["cp" "-r" "D:/cygwin/home/l.jones/professional/software/languages/clojure-clr/Release/*.dll" "target/clr/bin/"]
                          ]
         :main-cmd      [:clj-exe "Clojure.Main.exe"]
+        :assembly-paths []
         :compile-cmd   [:clj-exe "Clojure.Compile.exe"]})
