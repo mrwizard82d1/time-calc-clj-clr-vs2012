@@ -1,5 +1,6 @@
 (ns time-calc-clj-clr.core
-  (:require [clojure.string :only [split, split-lines] :as str]))
+  (:require [clojure.string :only [split, split-lines] :as str])
+  (:gen-class))
 
 (defrecord Task [start end details])
 

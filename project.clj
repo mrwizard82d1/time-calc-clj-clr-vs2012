@@ -4,7 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies []
-  :warn-on-reflection true
+  :main time-calc-clj-clr.core
+  :warn-on-reflection false
   :min-lein-version "2.0.0"
   :plugins [[lein-clr "0.2.1"]]
   :clr {:cmd-templates  {:clj-exe   [[?PATH "mono"] [CLJCLR150 %1]]
