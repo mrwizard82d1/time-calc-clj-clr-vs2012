@@ -13,7 +13,7 @@
     <StartupFile>$(MSBuildProjectName).exe</StartupFile>
     <StartupArguments>
     </StartupArguments>
-    <Name>time-calc-clj-clr</Name>
+    <Name>time-calc</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
